@@ -1,0 +1,18 @@
+.discountnavbar {
+  width: 100%;
+  background-color: var(--bg-secondary-color);
+}
+.discountnavbar p,
+.discountnavbar a {
+  color: var(--primary-color);
+}
+@media (max-width: 576px) {
+  .discountnavbar p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 420px) {
+  .discountnavbar p {
+    font-size: 10px;
+  }
+}

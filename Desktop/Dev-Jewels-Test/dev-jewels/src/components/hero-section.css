@@ -1,0 +1,24 @@
+/* =========================
+   HERO SECTION
+========================= */
+.hero-section {
+  background-color: var(--light-gray);
+}
+
+.hero-btn:hover {
+  background: #111;
+  color: #fff;
+}
+
+/* Image */
+.hero-image {
+  -o-object-fit: cover;
+  object-fit: cover;
+  height: 100%;
+}
+
+@media (min-width: 768px) {
+  .hero-content {
+    padding-left: calc((100vw - var(--width-1230)) / 2) !important;
+  }
+}

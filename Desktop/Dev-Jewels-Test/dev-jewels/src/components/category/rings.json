@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Symphony Ring",
+    "image": "/images/products/prod-3.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Rosegold Ring",
+    "image": "/images/products/prod-4.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Heart Shape Bracelets",
+    "image": "/images/products/prod-5.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Natura Ring",
+    "image": "/images/products/prod-1.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Rosegold Ring",
+    "image": "/images/products/prod-2.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Symphony Ring",
+    "image": "/images/products/prod-3.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Rosegold Ring",
+    "image": "/images/products/prod-4.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Heart Shape Bracelets",
+    "image": "/images/products/prod-3.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Natura Ring",
+    "image": "/images/products/prod-4.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Rosegold Ring",
+    "image": "/images/products/prod-5.jpg"
+  }
+]

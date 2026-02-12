@@ -1,0 +1,76 @@
+.category-tabs {
+  gap: 48px;
+  scrollbar-width: none;
+}
+.category-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.tab-btn {
+  background: none;
+  border: none;
+  padding: 8px 0;
+  white-space: nowrap;
+  position: relative;
+  color: var(--black-color);
+}
+
+.tab-btn.active {
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.tab-btn.active::before {
+  content: "◆";
+  margin-right: 6px;
+  font-size: 16px;
+}
+
+.see-all {
+  text-decoration: none;
+  color: var(--black-color);
+}
+
+/* VERTICAL DIVIDER */
+.tab-btn:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: -26px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 18px;
+  width: 1px;
+  background-color: #dddddd;
+}
+.tab-animate {
+  -webkit-animation: fadeSlide 0.45s ease-in-out;
+  animation: fadeSlide 0.45s ease-in-out;
+}
+
+@-webkit-keyframes fadeSlide {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(16px);
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeSlide {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(16px);
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,46 @@
+.diamond-shape-section {
+  background-color: rgba(245, 245, 245, 1);
+}
+
+.shape-card {
+  cursor: pointer;
+  -webkit-transition:
+    opacity 0.3s ease,
+    -webkit-transform 0.3s ease;
+  transition:
+    opacity 0.3s ease,
+    -webkit-transform 0.3s ease;
+  -o-transition:
+    transform 0.3s ease,
+    opacity 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    opacity 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    opacity 0.3s ease,
+    -webkit-transform 0.3s ease;
+}
+
+.shape-card:hover {
+  -webkit-transform: translateY(-6px);
+  -ms-transform: translateY(-6px);
+  transform: translateY(-6px);
+  opacity: 0.85;
+}
+
+.shape-icon {
+  max-width: 80px;
+  margin: 0 auto;
+}
+
+/* Mobile tweaks */
+@media (max-width: 575px) {
+  .section-title {
+    font-size: 24px;
+  }
+
+  .shape-icon {
+    max-width: 70px;
+  }
+}

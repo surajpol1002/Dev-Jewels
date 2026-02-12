@@ -1,0 +1,9 @@
+.talk-to-expert-section-cont {
+  background-color: var(--white-color);
+}
+@media (max-width: 767px) {
+  .talk-to-expert-section-cont > div {
+    border: 1px solid #dddddd;
+    border-top: none;
+  }
+}
