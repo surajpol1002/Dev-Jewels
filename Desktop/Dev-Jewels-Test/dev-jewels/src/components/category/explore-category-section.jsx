@@ -73,10 +73,7 @@ const ExploreCategory = () => {
               </button>
 
               {/* SEE ALL LINK (DESKTOP) */}
-              <a
-                href="#"
-                className="see-all d-none d-md-flex align-items-center fw-600 primary-regular-font-size"
-              >
+              <Link to="/" className="see-all d-none d-md-flex align-items-center fw-600 primary-regular-font-size">
                 See all rings &nbsp;{" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -93,7 +90,7 @@ const ExploreCategory = () => {
                     strokeLinejoin="round"
                   />
                 </svg>
-              </a>
+              </Link>
             </div>
 
             {/* MOBILE SEE ALL */}
