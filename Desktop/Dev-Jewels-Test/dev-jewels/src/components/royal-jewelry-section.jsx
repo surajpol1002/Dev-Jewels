@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./royal-jewelry-section.css";
 
 import womendiamondRings from "../images/women-diamond-rings.jpg";
@@ -32,12 +33,10 @@ const Royaljewelrysection = () => {
                       Lorem ipsum dolor sit amet consectetur. Pretium <br />{" "}
                       risus nam risus sit massa nunc faucibus.
                     </p>
-                    <a
-                      href="#"
-                      className="btn btn-transparent-radius font-fam-Montserrat fw-600"
+                    <Link to="/" className="btn btn-transparent-radius font-fam-Montserrat fw-600"
                     >
                       Shop now
-                    </a>
+                    </Link>
                   </div>
                 </div>
 

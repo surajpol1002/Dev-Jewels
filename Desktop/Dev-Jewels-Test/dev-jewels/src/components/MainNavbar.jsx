@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./navbar.css";
 import devJewelsLogo from "../images/logo/DEV-JEWELS-logo.svg";
 
@@ -10,16 +11,13 @@ const MainNavbar = () => {
       <nav className="mainnavbar navbar navbar-expand-lg navbar-light bg-white py-0">
         <div className="container-fluid d-lg-flex justify-content-between">
           <div className="d-lg-none d-inline">
-            <a
-              className="navbar-brand mx-auto px-md-1 px-lg-5 px-xl-0"
-              href="#"
-            >
+            <Link to="/" className="navbar-brand mx-auto px-md-1 px-lg-5 px-xl-0">
               <img
                 src={devJewelsLogo}
                 className="menu-icons logo"
                 alt="Dev Jewels Logo"
               />
-            </a>
+            </Link>
           </div>
           {/* Mobile Toggle */}
           <button
@@ -38,34 +36,34 @@ const MainNavbar = () => {
           >
             <ul className="navbar-nav gap-lg-3 text-center p-2">
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link to="/" className="nav-link">
                   OUR STORY
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link to="/" className="nav-link">
                   JEWELRY
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link to="/" className="nav-link">
                   DIAMOND
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link to="/" className="nav-link">
                   IMPACT
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link to="/" className="nav-link">
                   LEARN
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link to="/" className="nav-link">
                   WORK FOR NATURE
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

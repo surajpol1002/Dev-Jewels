@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./disscount-navbar.css";
 
 const DiscountNavbar = () => {
@@ -10,9 +11,9 @@ const DiscountNavbar = () => {
         {/* Left Menus */}
         <p className="m-0 px-3 d-flex">
           Shop for 559$ or more and get 10% off{" "}
-          <a href="#" className="mx-3">
+          <Link to="/" className="mx-3">
             Shop now
-          </a>
+          </Link>
         </p>
       </div>
     </>

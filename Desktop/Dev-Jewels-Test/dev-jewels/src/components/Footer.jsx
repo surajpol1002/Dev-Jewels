@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./footer.css";
 
 import footerBanner from "../images/footer-banner.jpg";
@@ -92,22 +93,22 @@ const Footer = () => {
               </h6>
 
               <div className="d-flex gap-4 mb-0">
-                <a href="#">
+                <Link to="/">
                   {" "}
                   <img src={facebook} alt="Facebook" />
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="/">
                   <img src={instagram} alt="Instagram" />
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="/">
                   <img src={linkedin} alt="LinkedIn" />
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="/">
                   <img src={twitter} alt="Twitter" />
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="/">
                   <img src={youtube} alt="YouTube" />
-                </a>
+                </Link>
               </div>
             </div>
 
@@ -130,15 +131,15 @@ const Footer = () => {
           </p>
 
           <div className="col-12 col-md-6 text-center text-md-end">
-            <a href="#" className="fs-12">
+            <Link to="/" className="fs-12">
               Sitemap
-            </a>
-            <a href="#" className="ms-3 fs-12">
+            </Link>
+            <Link to="/" className="ms-3 fs-12">
               Terms of use
-            </a>
-            <a href="#" className="ms-3 fs-12">
+            </Link>
+            <Link to="/" className="ms-3 fs-12">
               Privacy policy
-            </a>
+            </Link>
           </div>
         </div>
       </div>

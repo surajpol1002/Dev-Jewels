@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./meeting-section.css";
 
 import bookappointment from "../images/icons/book-an-appointment.svg";
@@ -40,12 +41,10 @@ const Meetingsection = () => {
                 gems and jewelry pieces that are sure to elevate your style and
                 make a statement.
               </p>
-              <a
-                href="#"
-                className="btn btn-transparent-radius font-fam-Montserrat fw-600"
+              <Link to="/" className="btn btn-transparent-radius font-fam-Montserrat fw-600"
               >
                 Shop now
-              </a>
+              </Link>
             </div>
           </div>
         </div>

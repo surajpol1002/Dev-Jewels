@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./hero-left-img-right-text.css";
 import bannerEngagementrings from "../images/Banner-Engagement-rings.jpg";
 
@@ -25,12 +26,9 @@ const Engagementrings = () => {
                 massa mi.
               </p>
 
-              <a
-                href="#"
-                className="btn btn-transparent-radius font-fam-Montserrat fw-600"
-              >
+              <Link to="/" className="btn btn-transparent-radius font-fam-Montserrat fw-600">
                 Shop now
-              </a>
+              </Link>
             </div>
           </div>
         </div>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./hero-left-text-right-img.css";
 import talkToAnExpert from "../images/Talk-to-an-expert.jpg";
 
@@ -15,12 +16,9 @@ const TalkExpert = () => {
                 create a beautiful and ethical jewelery to fit any budget.
               </p>
 
-              <a
-                href="#"
-                className="btn btn-transparent-radius font-fam-Montserrat fw-600"
-              >
-                Schedule appointment
-              </a>
+              <Link to="/" className="btn btn-transparent-radius font-fam-Montserrat fw-600"
+              >Schedule appointment
+              </Link>
             </div>
           </div>
           {/* IMAGE */}

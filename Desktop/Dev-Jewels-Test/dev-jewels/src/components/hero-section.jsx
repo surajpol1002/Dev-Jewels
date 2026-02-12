@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./hero-section.css";
 import heroImage from "../images/Something-to-Cherish-Forever.jpg";
 
@@ -18,12 +19,10 @@ const HeroSection = () => {
                 CHERISH FOREVER
               </h1>
 
-              <a
-                href="#"
-                className="btn btn-transparent-radius font-fam-Montserrat fw-600"
+              <Link to="/" className="btn btn-transparent-radius font-fam-Montserrat fw-600"
               >
                 Discover more
-              </a>
+              </Link>
             </div>
           </div>
 

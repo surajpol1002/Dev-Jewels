@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./navbar.css";
 import searchIcon from "../images/icons/search.svg";
 import helpDeskIcon from "../images/icons/help-desk.gif";
@@ -16,49 +17,46 @@ const TopNavbar = () => {
         <div className="container-fluid d-lg-flex justify-content-arround">
           {/* Left Menus */}
           <div className="topnavbar-left d-flex align-items-center gap-4">
-            <a href="#" className="nav-link d-flex align-items-center gap-1">
+            <Link to="/" className="nav-link d-flex align-items-center gap-1">
               <img src={searchIcon} className="menu-icons" alt="Search Icon" />
               <span className="d-none d-md-inline">Search</span>
-            </a>
+            </Link>
 
-            <a href="#" className="nav-link navlink-divider">
+            <Link to="/" className="nav-link navlink-divider">
               <img
                 src={helpDeskIcon}
                 className="menu-icons"
                 alt="Help Desk Icon"
               />
               <span className="d-none d-md-inline">Help Desk</span>
-            </a>
+            </Link>
           </div>
 
           {/* Logo */}
-          <a
-            className="navbar-brand mx-auto px-md-1 px-lg-5 px-xl-0 d-none d-lg-inline"
-            href="#"
-          >
+          <Link to="/" className="navbar-brand mx-auto px-md-1 px-lg-5 px-xl-0 d-none d-lg-inline">
             <img
               src={devJewelsLogo}
               className="menu-icons logo"
               alt="Dev Jewels Logo"
             />
-          </a>
+          </Link>
 
           {/* Right Menus */}
           <div className="topnavbar-right d-flex align-items-center gap-4">
-            <a href="#" className="nav-link">
+            <Link to="/" className="nav-link">
               <img src={heartIcon} className="menu-icons" alt="Wishlist Icon" />{" "}
               <span className="d-none d-md-inline">Wishlist</span>
-            </a>
+            </Link>
 
-            <a href="#" className="nav-link">
+            <Link to="/" className="nav-link">
               <img src={cartIcon} className="menu-icons" alt="Cart Icon" />
               <span className="d-none d-md-inline">Cart</span>
-            </a>
+            </Link>
 
-            <a href="#" className="nav-link">
+            <Link to="/" className="nav-link">
               <img src={loginIcon} className="menu-icons" alt="Login Icon" />
               Login
-            </a>
+            </Link>
           </div>
         </div>
       </nav>

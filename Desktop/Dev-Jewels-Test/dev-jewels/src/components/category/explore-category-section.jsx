@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useRef, useState } from "react";
 import "./explore-category-section.css";
 
@@ -97,9 +98,9 @@ const ExploreCategory = () => {
 
             {/* MOBILE SEE ALL */}
             <div className="d-md-none mb-3 text-end">
-              <a href="#" className="see-all px-3">
+              <Link to="/" className="see-all px-3">
                 See all rings →
-              </a>
+              </Link>
             </div>
           </div>
         </div>
